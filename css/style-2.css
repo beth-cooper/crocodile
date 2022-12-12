@@ -23,6 +23,7 @@ section, header {
 
 section, header {
     margin-bottom: 2rem;
+    margin-top: 2rem;
 }
 
 p, blockquote { 
@@ -62,7 +63,7 @@ h3{
 blockquote {
     font-style: italic;
     font-size: 1.5rem;
-    color: rgb(116, 58, 0);
+    color: #FFF3B0;
     hanging-punctuation: first;
     text-indent: 0.7rem;
 }
@@ -146,10 +147,29 @@ nav a:hover {
     left: 0;
     margin: 0;
     width: 100%;
-    background-color: #335C67;
+    background-color: #9E2A2B;
     padding: 1.5rem 0;
     font-size: 0.8;
+    
 }
+
+.back{
+top: 0;
+    left: 0;
+    margin: 0;
+    width: 100%;
+    background-color: #E09F3E;
+    padding: 1rem 0;
+    
+}
+hr {
+    
+    height: 4px;
+    background-color: #540B0E;
+    color: #540B0E;
+    border: 0;
+}
+
 
 
 
@@ -159,7 +179,7 @@ nav a:hover {
 
 img {
     display: block;
-    margin: 2rem 0 2rem 0;
+    margin: 2rem 0 ;
     padding: 0;
     max-width: 100%;
 }
@@ -168,23 +188,17 @@ img {
     margin: 0;
 }
 
-hr {
-    margin: 50px 0;
-    height: 2px;
-    background-color: rgb(90, 45, 0);
-    color: rgb(90, 45, 0);
-    border: 0;
-}
+
 
 /*-- styling in footer --*/
 
 
 footer {
-    background: #44210d61;
+    background: #335C67;
     text-align: center;
     font-size: 0.75rem;
-    color: #f7f7f7;
-    padding: 4em 0 3em 0
+    color: #FFF3B0;
+    padding: 2em 0 3em 0
     }
     
     footer p {
@@ -205,6 +219,7 @@ footer {
     padding: 0;
     list-style: none;
     display: inline-block;
+    
     }
     .connections a:link{
     border-bottom: none;
@@ -212,6 +227,7 @@ footer {
     .connections img,
     .connections svg{
     border: none;
+    fill: #FFF3B0;
     }
     .connections a:hover img,
     .connections a:hover svg{
@@ -219,10 +235,10 @@ footer {
     .connections svg {
     margin: 1em auto;}
     .connections a:hover svg path {
-    fill: #44210d61;
+    fill: #E09F3E;
     transition: all 0.2s ease-in-out;}
     footer .connections a:hover svg path {
-    fill: #44210d61;
+    fill: #E09F3E;
     transition: all 0.2s ease-in-out;}
 
     
